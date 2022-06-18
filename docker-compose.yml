@@ -1,0 +1,8 @@
+version: '3'
+services:
+  go:
+    build: .
+    container_name: golang-prac
+    tty: true
+    volumes:
+      - "./src:/opt/src"
